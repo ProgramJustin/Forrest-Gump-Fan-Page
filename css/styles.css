@@ -1,0 +1,109 @@
+/*------------Global------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+.container {
+  padding: 20px 10px;
+}
+
+
+/*------------Mast------------*/
+#mast {
+  text-align: center;
+}
+
+#mast img {
+  max-width: 100%;
+}
+
+
+/*------------Content------------*/
+#content {
+  /*position: relative;
+  overflow: auto;*/
+}
+
+/*------------Column 1------------*/
+#col1 {
+
+}
+
+#col1 ul {
+  width: 100%;
+}
+
+/*------------Column 2------------*/
+#col2 {
+  margin-top: 5%;
+  text-align: center;
+}
+#col2 img {
+  max-width: 100%;
+}
+/*------------Footer------------*/
+#footer {
+
+}
+
+#navbar {
+
+}
+
+/*------------Media Queries------------*/
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  #col1 {
+    width: 25%;
+    float: left;
+  }
+  #col2 {
+    width: 70%;
+    float: right;
+
+  }
+}
+@media screen and (max-width: 600px) {
+  #col1 {
+    /*float: right;*/
+    /*position: relative;*/
+    /*left: 50%;*/
+    /*text-align: left;*/
+    overflow: auto;
+
+  }
+  #col1 ul {
+    padding: 2px 10px;
+    /*border: 1px solid green;*/
+    position: relative;
+    /*left: 50%;*/
+
+  }
+  #col1 li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    /*margin: auto;*/
+    width: 23%;
+    margin-left: 5px;
+
+    /*border: 1px solid red;*/
+  }
+
+  #col1 a {
+    /*display: block;*/
+    color: red;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  #col1 i {
+    display: block;
+  }
+
+
+}
