@@ -63,6 +63,7 @@ a {
 }
 #col2 img {
   max-width: 100%;
+  border-radius: 3px;
 }
 /*------------Footer------------*/
 #footer {
@@ -102,6 +103,9 @@ a {
 @media screen and (max-width: 600px) {
   #mast img {
     width: 30%;
+    overflow: auto;
+    position: relative;
+
   }
   #col1 {
     margin-top: 5%;
@@ -127,8 +131,13 @@ a {
   #col2 img {
     width: 100%;
   }
-  #col2 img:nth-child(5), #col2 img:nth-child(4), #col2 img:nth-child(3), #col2 img:nth-child(2), #col2 img:last-child  {
+  #col2 img:first-child, #col2 img:nth-child(6), #col2 img:nth-child(5), #col2 img:nth-child(4), #col2 img:nth-child(3), #col2 img:nth-child(2), #col2 img:last-child  {
     display: none;
+  }
+  #col2 img:nth-child(7) {
+    position: absolute;
+    padding: 2%;
+    right: .050%;
   }
 
 }
