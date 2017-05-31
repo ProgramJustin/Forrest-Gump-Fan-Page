@@ -101,9 +101,10 @@ a {
 }
 @media screen and (max-width: 600px) {
   #mast img {
-    width: 40%;
+    width: 30%;
   }
   #col1 {
+    margin-top: 5%;
     overflow: auto;
   }
   #col1 ul {
@@ -122,6 +123,12 @@ a {
     /*display: block;*/
     font-weight: 600;
     text-decoration: none;
+  }
+  #col2 img {
+    width: 100%;
+  }
+  #col2 img:nth-child(5), #col2 img:nth-child(4), #col2 img:nth-child(3), #col2 img:nth-child(2), #col2 img:last-child  {
+    display: none;
   }
 
 }
